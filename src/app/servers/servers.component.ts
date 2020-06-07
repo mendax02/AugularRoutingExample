@@ -14,6 +14,7 @@ export class ServersComponent implements OnInit {
 
   ngOnInit() {
     this.servers = this.serversService.getServers();
+    // this.route.params.subscribe();
   }
 
   onReload() {
