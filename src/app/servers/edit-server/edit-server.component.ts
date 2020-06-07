@@ -35,6 +35,7 @@ export class EditServerComponent implements OnInit {
   onUpdateServer(allowEdit: boolean) {
     if ( allowEdit === true) {
     this.serversService.updateServer(this.server.id, {name: this.serverName, status: this.serverStatus});
+    alert('Values updated!');
     }
   }
 
