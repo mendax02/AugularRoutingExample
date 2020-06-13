@@ -34,6 +34,7 @@ import { ServerResolver } from './servers/server/server-resolver.service';
 @NgModule(
   {
     imports: [RouterModule.forRoot(appRoutes)
+  // imports: [RouterModule.forRoot(appRoutes, {useHash: true})
     ],
     exports: [RouterModule]
   }
